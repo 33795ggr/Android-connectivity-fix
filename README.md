@@ -31,8 +31,8 @@ Android devices with Chinese ROMs are hardcoded to verify internet access via Ch
 
 1. Скачайте этот репозиторий.
 2. Запустите файл для вашей системы:
-   - **Windows:** `fix_china_net.bat`
-   - **macOS/Linux:** `fix_china_net.sh`
+   - **Windows:** `WindowsFix.bat`
+   - **macOS/Linux:** `MacOs-LinuxFIX.sh`
 3. Перезагрузите телефон.
 
 ### 📱 Способ 2: На телефоне (SetEdit)
@@ -53,3 +53,4 @@ adb shell settings put global captive_portal_https_url [https://nmcheck.kde.org/
 
 # Disabling strict captive portal mode to prevent "Offline" false-positives
 adb shell settings put global captive_portal_mode 0
+
